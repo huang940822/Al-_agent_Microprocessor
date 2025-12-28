@@ -1,0 +1,12 @@
+{
+    "question": "Which Greek god was famously known for his role as the messenger of the gods, often depicted with winged sandals?",
+    "options": {
+        "A": "Hermes",
+        "B": "Apollo",
+        "C": "Poseidon"
+    },
+    "status": "waiting",
+    "message": "Press the correct button!",
+    "correct_answer": "",
+    "user_answer": ""
+}
