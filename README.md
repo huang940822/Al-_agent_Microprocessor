@@ -29,3 +29,15 @@ Install python 3.11 with pyenv, then cd into this project.
 pyenv install 3.11
 pyenv local 3.11
 ```
+### Create virtual environment and source it
+* MacOS/Linux
+```
+python -m venv venv # create venv in venv directory
+source ./venv/bin/activate # change this path according to your shell type
+```
+* Windows
+```
+python -m venv venv # create venv in venv directory
+.\venv\Scripts\activate # change this path according to your shell type
+```
+
