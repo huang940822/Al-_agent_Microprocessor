@@ -6,7 +6,9 @@
 * Fetch available LLM model via ```ollama pull <name-of-model>```
  * View a list of available models via the model [library](https://ollama.com/library)
  * e.g., ```ollama pull gpt-oss:20b```
-*This will download the default tagged version of the model. Typically, the default points to the latest, smallest sized-parameter model.
+* This will download the default tagged version of the model. Typically, the default points to the latest, smallest sized-parameter model.
 >[!NOTE]
 >On Mac, the models will be download to ```~/.ollama/models```
+>
 >On Linux (or WSL), the models will be stored at ```/usr/share/ollama/.ollama/models```
+* Specify the exact version of the model of interest as such ollama pull gpt-oss:20b (View the various tags for the Vicuna model in this instance)
