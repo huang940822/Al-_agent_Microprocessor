@@ -25,5 +25,7 @@
 >Note The commands might not apply to Windows users directly (path separators).
 ### Install pyenv or pyenv-win (windows)
 Install python 3.11 with pyenv, then cd into this project.
-```pyenv install 3.11
-pyenv local 3.11```
+```
+pyenv install 3.11
+pyenv local 3.11
+```
