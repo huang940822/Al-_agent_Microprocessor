@@ -17,3 +17,10 @@
 * View the [Ollama documentation](https://github.com/ollama/ollama/blob/main/docs/README.md) for more commands. You can run ```ollama help``` in the terminal to see available commands.
 
 ## Environment
+* Python 3.11
+* pyenv
+* python venv module
+## How to run
+>[!NOTE]
+>Note The commands might not apply to Windows users directly (path separators).
+### Install pyenv or pyenv-win (windows)
