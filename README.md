@@ -7,5 +7,7 @@
  * View a list of available models via the model [library](https://ollama.com/library)
  * e.g., ```ollama pull gpt-oss:20b```
 *This will download the default tagged version of the model. Typically, the default points to the latest, smallest sized-parameter model.
-[!NOTE]On Mac, the models will be download to ```~/.ollama/models```
-[!NOTE]On Linux (or WSL), the models will be stored at ```/usr/share/ollama/.ollama/models```
+>[!NOTE]
+>On Mac, the models will be download to ```~/.ollama/models```
+>[!NOTE]
+>On Linux (or WSL), the models will be stored at ```/usr/share/ollama/.ollama/models```
