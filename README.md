@@ -40,4 +40,26 @@ source ./venv/bin/activate # change this path according to your shell type
 python -m venv venv # create venv in venv directory
 .\venv\Scripts\activate # change this path according to your shell type
 ```
+### Install dependencies
+```
+pip install -r requirements.txt
+```
+### Configuration
+Make sure the Configuration in ```lagngraph_logic.py```:
+```
+# --- CONFIGURATION ---
+SERIAL_PORT = 'COM3'   # make sure match the port for pic18f
+BAUD_RATE = 1200
+STATUS_FILE = "current_state.json"
+OLLAMA_MODEL = "gemma3:4b" # make sure the model available on the system
+```
+### Start the app
+Frontend:
+```
+streamlit run app.py
+```
+Backend:
+```
+python langgraph_logic.py
+```
 
